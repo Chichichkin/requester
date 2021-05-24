@@ -1,6 +1,6 @@
 # Go Requester
 This is simple program that allow to send GET requests to different sites and 
-return string? that consist of url and md5 hash of body response
+return string, that consist of url and md5 hash of body response
 ## How to use
 For example, you can run this program by calling:
 
@@ -12,14 +12,14 @@ This program by default runs with 10 goroutines, but that number can be changed 
     //or
     -parallel 3
 
-You can also use file,from which program will read sites addresses:
+You can also use file, from which program will read sites addresses:
 
     -f sites.txt
     //or 
     -file sites.txt
 ***Currently supports files where only one site per line***
 
-So final command will look like this:
+That makes you able to run this program this way:
 
     go run main.go -parallel 3 -f sites.txt
 ## Test
