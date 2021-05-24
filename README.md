@@ -4,7 +4,7 @@ return string, that consist of url and md5 hash of body response
 ## How to use
 For example, you can run this program by calling:
 
-    go run main.go -parallel 3 adjust.com google.com facebook.com yahoo.com yandex.com twitter.com reddit.com/r/funny reddit.com/r/notfunny baroquemusiclibrary.com
+    go run main.go -parallel 3 google.com facebook.com yahoo.com yandex.com twitter.com reddit.com/r/funny reddit.com/r/notfunny baroquemusiclibrary.com
 
 This program by default runs with 10 goroutines, but that number can be changed this way:
 
